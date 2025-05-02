@@ -1,0 +1,23 @@
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.second{
+    /* display: none; */
+    visibility: hidden;
+}
+.blog{
+    border: 10px solid limegreen;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px orange;
+}
+.header{
+    background-image: url('../styles/20250128_094423.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width:100%;
+}

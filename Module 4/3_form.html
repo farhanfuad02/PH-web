@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 style="text-align: center;">Please fill up the form</h3>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <label for="name">Your Name: 
+                    <input type="text" id="name" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email: 
+                    <input type="email" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone: 
+                    <input type="number" id="phone" placeholder="Your Phone">
+                </label>
+            </form>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Choose Subject</legend>
+                <label for="CSE">
+                    <input type="radio" name="subject" id="CSE">CSE
+                </label>
+                <label for="IIT">
+                    <input type="radio" name="subject" id="IIT">IIT
+                </label>
+                <label for="Chemistry">
+                    <input type="radio" name="subject" id="Chemistry">Chemistry
+                </label>
+                <label for="Math">
+                    <input type="radio" name="subject" id="Math">Math
+                </label>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Choose University</legend>
+                <label for="JU">
+                    <input type="checkbox" name="University" id="JU">Jahangirnagar University
+                </label>
+                <label for="DU">
+                    <input type="checkbox" name="University" id="DU">Dhaka University
+                </label>
+                <label for="buet">
+                    <input type="checkbox" name="University" id="buet">BUET
+                </label>
+                <label for="ruet">
+                    <input type="checkbox" name="University" id="ruet">RUET
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

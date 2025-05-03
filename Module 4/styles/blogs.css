@@ -1,0 +1,9 @@
+nav > ol > li{
+    color: chocolate;
+    background-color: chartreuse;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
-        table{
+        table {
             border-collapse: collapse;
         }
-        td,th{
+
+        td,
+        th {
             border: 2px solid black;
             padding: 5px 10px;
         }
     </style>
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
-<body>
-    <table>
-        <thead>
-            <caption>My circle</caption>
-            <th>No.</th>
-            <th>Name</th>
-            <th>Hall</th>
-            <th>Home district</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Farhan Fuad</td>
-                <td>SRJ Hall</td>
-                <td>Mymensingh</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Zakia Binta Syeed</td>
-                <td>Rokeya Hall</td>
-                <td>Tangail</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Kabir Hossain</td>
-                <td>BBH Hall</td>
-                <td>Gazipur</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Abid Hasan Plabon</td>
-                <td>MH Hall</td>
-                <td>Netrokona</td>
-            </tr>
-        </tbody>
-        <tfoot>
 
-        </tfoot>
-    </table>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="1_audio_video.html" target="_blank">Audio video</a></li>
+                <li><a href="2_blogs.html">Blogs</a></li>
+                <li>
+                    <a href="3_form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="1_audio_video.html" target="_blank">Audio video</a></li>
+                        <li><a href="2_blogs.html">Blogs</a></li>
+                        <li><a href="3_form.html">Form</a></li>
+                        <li><a href="4_table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="4_table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <caption>My circle</caption>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Hall</th>
+                <th>Home district</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Farhan Fuad</td>
+                    <td>SRJ Hall</td>
+                    <td>Mymensingh</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Zakia Binta Syeed</td>
+                    <td>Rokeya Hall</td>
+                    <td>Tangail</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kabir Hossain</td>
+                    <td>BBH Hall</td>
+                    <td>Gazipur</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Abid Hasan Plabon</td>
+                    <td>MH Hall</td>
+                    <td>Netrokona</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </main>
 </body>
+
 </html>
